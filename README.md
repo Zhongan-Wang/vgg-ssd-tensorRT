@@ -11,13 +11,15 @@ cd build
 cmake ..
 make
 ```
-```
+
+
 // Serialize the model and generate ssd_mobilenet.engine
 ```
   ./vgg-ssd-tensorrt -s
 ```
 
 // Deserialize and generate the detection results test.jpg and so on.
+
 
 ```
   ./vgg-tensorrt -d ../samples
